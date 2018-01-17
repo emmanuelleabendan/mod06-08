@@ -1,0 +1,26 @@
+body {
+	background-color: violet;
+	font-family: sans-serif;
+}
+
+.wrapper {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	background: linear-gradient(pink, white);
+	padding: 20px;
+}
+
+.wrapper p:not(:first-of-type) {
+    display: none;
+}
+
+button {
+    background: violet;
+    padding: 20px;
+}
+
+button:hover {
+	background: grey;
+	color: #fff;
+}
